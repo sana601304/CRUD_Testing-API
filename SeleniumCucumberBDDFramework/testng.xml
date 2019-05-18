@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.testsutomation.StepDef.YouTubeSearchStepDef">
+       <methods>
+                    <include name="open_chrome_browser_and_enter_url"/>
+                    <include name="Enter_search_creteria"/>
+                    <include name="Click_on_search_button"/>
+                    
+                    <include name="open_chrome_browser_and_enter_youtube"/>
+                    <include name="Maximise_Browser"/>
+                    <include name="Close_the_Browser"/>
+        </methods>
+       
+       </class>
+        
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
