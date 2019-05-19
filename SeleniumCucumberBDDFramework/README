@@ -1,2 +1,3 @@
 This Project demonstrates CRUD testing API
 For Each Run update name value in json in path src/mai.resources/Postdata.json
+Cucumber Reports will be stored in target/cucumber-reports
